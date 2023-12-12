@@ -1,0 +1,105 @@
+.cards {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 50px;
+ }
+
+ 
+ .cards1 {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cards1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cards1 .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: #334b35a2;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.cards1 h2 {
+  margin: 0;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.cards2 {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cards2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cards2 .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: #334b35a2;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.cards2 h2 {
+  margin: 0;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.cards3 {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cards3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cards3 .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: #334b35a2;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.cards3 h2 {
+  margin: 0;
+  font-size: 1.5em;
+  text-align: left;
+}

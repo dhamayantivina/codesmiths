@@ -1,0 +1,137 @@
+.hero-banner {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .hero-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Warna hitam dengan alpha channel (transparansi) */
+    z-index: 1;
+  }
+
+  .hero-text {
+    
+    font-family: 'Livvic', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+  }
+
+  /* Untuk membuat gambar lebih gelap */
+  .hero-image {
+    filter: brightness(70%); /* Sesuaikan nilai brightness sesuai kebutuhan Anda (0-100%) */
+    z-index: 0;
+  }
+
+  .img-container {
+    height: 227px;
+    width: 258px;
+  }
+
+  .card-img-top{
+    height: 292px;
+  }
+
+  .no-urut {
+    position: absolute;
+    background-color: #334B35;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 10px;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    height: 52px;
+    width: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+  font-weight: bold;
+}
+.tanam{
+  font-family: 'Livvic', sans-serif;
+}
+.tanam ol li {
+  margin: 2rem 0;
+}
+.rawat {
+  font-family: 'Livvic', sans-serif;
+}
+.rawat ul li {
+  margin: 2rem 0;
+  list-style-type: none;
+}
+
+.rawat-step {
+  position: absolute;
+  background-color:#334B35;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 10px;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  
+}
+
+.kendali .alat-bahan  {
+  font-family: 'Livvic',sans-serif;
+}
+.kendali  h1 {
+  margin: 5rem 2rem;
+  font-weight: bold;
+}
+.kendali .row {
+  margin: 5rem 5rem;
+}
+.kendali h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.kendali span  {
+  font-weight: bold;
+}
+.kendali p {
+  font-size: 16px;
+}
+
+.alat-bahan h1 {
+  margin: 5rem 2rem;
+}
+.alat-bahan {
+  font-family: 'Livvic',sans-serif;
+  margin-bottom: 2rem;
+}
+
+.alat-bahan .card-body {
+  color: #fff;
+  text-align: center;
+}
+.alat-bahan .card-title {
+  font-weight: bold;
+}
+
+.btn-default {
+  background-color: #F7C35F; 
+  color: #000;
+  font-weight: bold;
+}
